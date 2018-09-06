@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+G:/GitHub/FasTC/src/Base/CMakeLists.txt
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CheckCXXSourceCompiles.cmake
+G:/GitHub/FasTC/src/Base/config/BaseConfig.h.in

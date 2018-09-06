@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+G:/GitHub/FasTC/src/IO/CMakeLists.txt
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindOpenGL.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindPackageMessage.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+G:/GitHub/FasTC/src/IO/config/ImageLoader.h.in
+G:/GitHub/FasTC/src/IO/config/ImageWriter.h.in

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DC47AB02-49E8-3BF7-B573-01730D3688D3}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>FasTCCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\GitHub\FasTC\build\Core\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">FasTCCore.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">FasTCCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\GitHub\FasTC\build\Core\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">FasTCCore.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">FasTCCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\GitHub\FasTC\build\Core\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">FasTCCore.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">FasTCCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\GitHub\FasTC\build\Core\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">FasTCCore.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">FasTCCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GitHub\FasTC\src\Base\include;G:\GitHub\FasTC\build\Base\include;G:\GitHub\FasTC\src\Core\include;G:\GitHub\FasTC\build\Core\include;G:\GitHub\FasTC\src\IO\include;G:\GitHub\FasTC\build\IO\include;G:\GitHub\FasTC\src\ASTCEncoder\include;G:\GitHub\FasTC\build\ASTCEncoder\include;G:\GitHub\FasTC\src\ETCEncoder\include;G:\GitHub\FasTC\build\ETCEncoder\include;G:\GitHub\FasTC\src\DXTEncoder\include;G:\GitHub\FasTC\build\DXTEncoder\include;G:\GitHub\FasTC\src\PVRTCEncoder\include;G:\GitHub\FasTC\build\PVRTCEncoder\include;G:\GitHub\FasTC\src\BPTCEncoder\include;G:\GitHub\FasTC\build\BPTCEncoder\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\GitHub\FasTC\src\Core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule G:/GitHub/FasTC/src/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"E:\Program Files\cmake\install\bin\cmake.exe" -HG:/GitHub/FasTC/src -BG:/GitHub/FasTC/build --check-stamp-file G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:/GitHub/FasTC/src/Core/CMakeLists.txt;G:\GitHub\FasTC\src\Core\CMakeLists.txt;G:\GitHub\FasTC\src\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule G:/GitHub/FasTC/src/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"E:\Program Files\cmake\install\bin\cmake.exe" -HG:/GitHub/FasTC/src -BG:/GitHub/FasTC/build --check-stamp-file G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:/GitHub/FasTC/src/Core/CMakeLists.txt;G:\GitHub\FasTC\src\Core\CMakeLists.txt;G:\GitHub\FasTC\src\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule G:/GitHub/FasTC/src/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"E:\Program Files\cmake\install\bin\cmake.exe" -HG:/GitHub/FasTC/src -BG:/GitHub/FasTC/build --check-stamp-file G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:/GitHub/FasTC/src/Core/CMakeLists.txt;G:\GitHub\FasTC\src\Core\CMakeLists.txt;G:\GitHub\FasTC\src\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule G:/GitHub/FasTC/src/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"E:\Program Files\cmake\install\bin\cmake.exe" -HG:/GitHub/FasTC/src -BG:/GitHub/FasTC/build --check-stamp-file G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:/GitHub/FasTC/src/Core/CMakeLists.txt;G:\GitHub\FasTC\src\Core\CMakeLists.txt;G:\GitHub\FasTC\src\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\include\FasTC\CompressedImage.h" />
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\include\FasTC\ReferenceCounter.h" />
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\include\FasTC\StopWatch.h" />
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\include\FasTC\TexComp.h" />
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\include\FasTC\ThreadSafeStreambuf.h" />
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\src\CompressionFuncs.h" />
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\src\Thread.h" />
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\src\ThreadGroup.h" />
+    <ClInclude Include="G:\GitHub\FasTC\src\Core\src\WorkerQueue.h" />
+    <ClCompile Include="G:\GitHub\FasTC\src\Core\src\TexComp.cpp"  />
+    <ClCompile Include="G:\GitHub\FasTC\src\Core\src\CompressedImage.cpp"  />
+    <ClCompile Include="G:\GitHub\FasTC\src\Core\src\StopWatchWin32.cpp"  />
+    <ClCompile Include="G:\GitHub\FasTC\src\Core\src\ThreadWin32.cpp"  />
+    <ClCompile Include="G:\GitHub\FasTC\src\Core\src\ThreadSafeStreambuf.cpp"  />
+    <ClCompile Include="G:\GitHub\FasTC\src\Core\src\Thread.cpp"  />
+    <ClCompile Include="G:\GitHub\FasTC\src\Core\src\ThreadGroup.cpp"  />
+    <ClCompile Include="G:\GitHub\FasTC\src\Core\src\WorkerQueue.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:/GitHub/FasTC/build/IO/FasTCIO.vcxproj">
+      <Project>D2E03AB2-8B1A-3B43-A53D-B09D4A410309</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

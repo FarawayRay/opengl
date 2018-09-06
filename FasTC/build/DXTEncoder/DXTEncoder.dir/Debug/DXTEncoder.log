@@ -1,0 +1,19 @@
+﻿Build started 18/6/15 下午 02:51:11.
+     1>Project "G:\GitHub\FasTC\build\DXTEncoder\DXTEncoder.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule G:/GitHub/FasTC/src/DXTEncoder/CMakeLists.txt
+         CMake does not need to re-run because G:\GitHub\FasTC\build\DXTEncoder\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         E:\Program Files\VS2013\VC\bin\CL.exe /c /IG:\GitHub\FasTC\src\Base\include /IG:\GitHub\FasTC\build\Base\include /IG:\GitHub\FasTC\src\DXTEncoder\include /IG:\GitHub\FasTC\build\DXTEncoder\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"DXTEncoder.dir\Debug\\" /Fd"DXTEncoder.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt G:\GitHub\FasTC\src\DXTEncoder\src\Compressor.cpp G:\GitHub\FasTC\src\DXTEncoder\src\Decompressor.cpp
+         Compressor.cpp
+         Decompressor.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\VS2013\VC\bin\Lib.exe /OUT:"G:\GitHub\FasTC\build\DXTEncoder\Debug\DXTEncoder.lib" /NOLOGO  /machine:X86 DXTEncoder.dir\Debug\Compressor.obj
+         DXTEncoder.dir\Debug\Decompressor.obj
+         DXTEncoder.vcxproj -> G:\GitHub\FasTC\build\DXTEncoder\Debug\DXTEncoder.lib
+     1>Done Building Project "G:\GitHub\FasTC\build\DXTEncoder\DXTEncoder.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.25

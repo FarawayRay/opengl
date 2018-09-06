@@ -1,0 +1,31 @@
+﻿Build started 18/6/15 下午 02:51:20.
+     1>Project "G:\GitHub\FasTC\build\Core\FasTCCore.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule G:/GitHub/FasTC/src/Core/CMakeLists.txt
+         CMake does not need to re-run because G:\GitHub\FasTC\build\Core\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         E:\Program Files\VS2013\VC\bin\CL.exe /c /IG:\GitHub\FasTC\src\Base\include /IG:\GitHub\FasTC\build\Base\include /IG:\GitHub\FasTC\src\Core\include /IG:\GitHub\FasTC\build\Core\include /IG:\GitHub\FasTC\src\IO\include /IG:\GitHub\FasTC\build\IO\include /IG:\GitHub\FasTC\src\ASTCEncoder\include /IG:\GitHub\FasTC\build\ASTCEncoder\include /IG:\GitHub\FasTC\src\ETCEncoder\include /IG:\GitHub\FasTC\build\ETCEncoder\include /IG:\GitHub\FasTC\src\DXTEncoder\include /IG:\GitHub\FasTC\build\DXTEncoder\include /IG:\GitHub\FasTC\src\PVRTCEncoder\include /IG:\GitHub\FasTC\build\PVRTCEncoder\include /IG:\GitHub\FasTC\src\BPTCEncoder\include /IG:\GitHub\FasTC\build\BPTCEncoder\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"FasTCCore.dir\Debug\\" /Fd"FasTCCore.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt G:\GitHub\FasTC\src\Core\src\TexComp.cpp G:\GitHub\FasTC\src\Core\src\CompressedImage.cpp G:\GitHub\FasTC\src\Core\src\StopWatchWin32.cpp G:\GitHub\FasTC\src\Core\src\ThreadWin32.cpp G:\GitHub\FasTC\src\Core\src\ThreadSafeStreambuf.cpp G:\GitHub\FasTC\src\Core\src\Thread.cpp G:\GitHub\FasTC\src\Core\src\ThreadGroup.cpp G:\GitHub\FasTC\src\Core\src\WorkerQueue.cpp
+         TexComp.cpp
+         CompressedImage.cpp
+         StopWatchWin32.cpp
+         ThreadWin32.cpp
+         ThreadSafeStreambuf.cpp
+         Thread.cpp
+         ThreadGroup.cpp
+         WorkerQueue.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\VS2013\VC\bin\Lib.exe /OUT:"G:\GitHub\FasTC\build\Core\Debug\FasTCCore.lib" /NOLOGO  /machine:X86 FasTCCore.dir\Debug\TexComp.obj
+         FasTCCore.dir\Debug\CompressedImage.obj
+         FasTCCore.dir\Debug\StopWatchWin32.obj
+         FasTCCore.dir\Debug\ThreadWin32.obj
+         FasTCCore.dir\Debug\ThreadSafeStreambuf.obj
+         FasTCCore.dir\Debug\Thread.obj
+         FasTCCore.dir\Debug\ThreadGroup.obj
+         FasTCCore.dir\Debug\WorkerQueue.obj
+         FasTCCore.vcxproj -> G:\GitHub\FasTC\build\Core\Debug\FasTCCore.lib
+     1>Done Building Project "G:\GitHub\FasTC\build\Core\FasTCCore.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.75

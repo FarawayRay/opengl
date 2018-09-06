@@ -1,0 +1,15 @@
+﻿Build started 18/6/15 下午 03:14:39.
+     1>Project "G:\GitHub\FasTC\build\CLTool\tc.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files\VS2013\VC\bin\CL.exe /c /IG:\GitHub\FasTC\src\Base\include /IG:\GitHub\FasTC\build\Base\include /IG:\GitHub\FasTC\src\Core\include /IG:\GitHub\FasTC\src\IO\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"tc.dir\Debug\\" /Fd"tc.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt G:\GitHub\FasTC\src\CLTool\src\tc.cpp
+         tc.cpp
+       Link:
+         E:\Program Files\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\FasTC\build\CLTool\Debug\tc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\Base\Debug\FasTCBase.lib ..\IO\Debug\FasTCIO.lib ..\Core\Debug\FasTCCore.lib ..\IO\Debug\FasTCIO.lib ..\Core\Debug\FasTCCore.lib ..\ETCEncoder\Debug\ETCEncoder.lib ..\DXTEncoder\Debug\DXTEncoder.lib ..\BPTCEncoder\Debug\BPTCEncoder.lib ..\PVRTCEncoder\Debug\PVRTCEncoder.lib ..\ASTCEncoder\Debug\ASTCEncoder.lib ..\Base\Debug\FasTCBase.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/GitHub/FasTC/build/CLTool/Debug/tc.pdb" /SUBSYSTEM:CONSOLE /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/GitHub/FasTC/build/CLTool/Debug/tc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 tc.dir\Debug\tc.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         tc.vcxproj -> G:\GitHub\FasTC\build\CLTool\Debug\tc.exe
+     1>Done Building Project "G:\GitHub\FasTC\build\CLTool\tc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.33

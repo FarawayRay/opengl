@@ -1,0 +1,16 @@
+﻿Build started 18/6/15 下午 02:51:08.
+     1>Project "G:\GitHub\FasTC\build\GTest\gtest.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule G:/GitHub/FasTC/src/GTest/CMakeLists.txt
+         CMake does not need to re-run because G:\GitHub\FasTC\build\GTest\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         E:\Program Files\VS2013\VC\bin\CL.exe /c /IG:\GitHub\FasTC\src\GTest\include /IG:\GitHub\FasTC\src\GTest /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D WIN32 /D _WINDOWS /D _UNICODE /D UNICODE /D WIN32 /D _WIN32 /D STRICT /D WIN32_LEAN_AND_MEAN /D GTEST_HAS_PTHREAD=0 /D _HAS_EXCEPTIONS=1 /D _VARIADIC_MAX=10 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gtest.dir\Debug\\" /Fd"gtest.dir\Debug\vc120.pdb" /Gd /TP /wd4127 /wd4251 /wd4275 /analyze- /errorReport:prompt  -J "G:\GitHub\FasTC\src\GTest\src\gtest-all.cc"
+         gtest-all.cc
+       Lib:
+         E:\Program Files\VS2013\VC\bin\Lib.exe /OUT:"G:\GitHub\FasTC\build\GTest\Debug\gtest.lib" /NOLOGO  /machine:X86 "gtest.dir\Debug\gtest-all.obj"
+         gtest.vcxproj -> G:\GitHub\FasTC\build\GTest\Debug\gtest.lib
+     1>Done Building Project "G:\GitHub\FasTC\build\GTest\gtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.99

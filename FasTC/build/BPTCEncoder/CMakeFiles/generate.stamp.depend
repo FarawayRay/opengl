@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+G:/GitHub/FasTC/src/BPTCEncoder/CMakeLists.txt
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CheckCXXSourceRuns.cmake
+G:/GitHub/FasTC/src/BPTCEncoder/config/BPTCConfig.h.in

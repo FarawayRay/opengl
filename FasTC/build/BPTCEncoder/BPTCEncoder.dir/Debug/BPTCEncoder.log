@@ -1,0 +1,23 @@
+﻿Build started 18/6/15 下午 02:51:11.
+     1>Project "G:\GitHub\FasTC\build\BPTCEncoder\BPTCEncoder.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule G:/GitHub/FasTC/src/BPTCEncoder/CMakeLists.txt
+         CMake does not need to re-run because G:\GitHub\FasTC\build\BPTCEncoder\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         E:\Program Files\VS2013\VC\bin\CL.exe /c /IG:\GitHub\FasTC\src\Base\include /IG:\GitHub\FasTC\build\Base\include /IG:\GitHub\FasTC\src\BPTCEncoder\include /IG:\GitHub\FasTC\build\BPTCEncoder\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"BPTCEncoder.dir\Debug\\" /Fd"BPTCEncoder.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt G:\GitHub\FasTC\src\BPTCEncoder\src\Compressor.cpp G:\GitHub\FasTC\src\BPTCEncoder\src\Decompressor.cpp G:\GitHub\FasTC\src\BPTCEncoder\src\RGBAEndpoints.cpp G:\GitHub\FasTC\src\BPTCEncoder\src\ParallelStage.cpp
+         Compressor.cpp
+         Decompressor.cpp
+         RGBAEndpoints.cpp
+         ParallelStage.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\VS2013\VC\bin\Lib.exe /OUT:"G:\GitHub\FasTC\build\BPTCEncoder\Debug\BPTCEncoder.lib" /NOLOGO  /machine:X86 BPTCEncoder.dir\Debug\Compressor.obj
+         BPTCEncoder.dir\Debug\Decompressor.obj
+         BPTCEncoder.dir\Debug\RGBAEndpoints.obj
+         BPTCEncoder.dir\Debug\ParallelStage.obj
+         BPTCEncoder.vcxproj -> G:\GitHub\FasTC\build\BPTCEncoder\Debug\BPTCEncoder.lib
+     1>Done Building Project "G:\GitHub\FasTC\build\BPTCEncoder\BPTCEncoder.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.92

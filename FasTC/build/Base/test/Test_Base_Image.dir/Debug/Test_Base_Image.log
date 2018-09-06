@@ -1,0 +1,10 @@
+﻿Build started 18/6/19 上午 09:18:46.
+     1>Project "G:\GitHub\FasTC\build\Base\test\Test_Base_Image.vcxproj" on node 5 (Build target(s)).
+     1>Link:
+         E:\Program Files\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\FasTC\build\Base\test\Debug\Test_Base_Image.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\Debug\FasTCBase.lib ..\..\GTest\Debug\gtest_main.lib ..\..\GTest\Debug\gtest.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/GitHub/FasTC/build/Base/test/Debug/Test_Base_Image.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/GitHub/FasTC/build/Base/test/Debug/Test_Base_Image.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Test_Base_Image.dir\Debug\TestImage.obj
+         Test_Base_Image.vcxproj -> G:\GitHub\FasTC\build\Base\test\Debug\Test_Base_Image.exe
+     1>Done Building Project "G:\GitHub\FasTC\build\Base\test\Test_Base_Image.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.82

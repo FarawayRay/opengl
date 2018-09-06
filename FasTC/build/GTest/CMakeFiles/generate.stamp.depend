@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+G:/GitHub/FasTC/src/GTest/CMakeLists.txt
+G:/GitHub/FasTC/src/GTest/cmake/internal_utils.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindPythonInterp.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindPackageMessage.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindThreads.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CheckLibraryExists.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CheckSymbolExists.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CheckIncludeFile.c.in
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/FindPackageMessage.cmake
+E:/Program Files/cmake/install/share/cmake-3.5/Modules/CMakeParseArguments.cmake

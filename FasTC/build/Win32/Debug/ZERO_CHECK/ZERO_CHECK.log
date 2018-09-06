@@ -1,0 +1,23 @@
+﻿Build started 18/6/15 下午 02:53:17.
+     1>Project "G:\GitHub\FasTC\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because G:/GitHub/FasTC/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/Base/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/Core/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/IO/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/BPTCEncoder/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/PVRTCEncoder/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/DXTEncoder/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/ETCEncoder/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/ASTCEncoder/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/CLTool/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/GTest/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/Base/test/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/PVRTCEncoder/test/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because G:/GitHub/FasTC/build/ASTCEncoder/test/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "G:\GitHub\FasTC\build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10
